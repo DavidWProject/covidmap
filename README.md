@@ -1,4 +1,4 @@
-# US Covid Map
+# US Covid Map [Link to US Covid Map!](https://covid-map.site/)
 
 **A simple application that gets the latest data from CDC and presents them in an interactive map of the US** 
 
@@ -23,4 +23,5 @@ TODO
 4. Add new navigation or tabs for tables and charts. 
 
 LightHouse Report: 
+
 ![LightHouse Report](https://github.com/DavidWProject/covidmap/blob/master/Lighthouse1.PNG?raw=true)
