@@ -37,7 +37,7 @@ path:hover, circle:hover {
 }
 
 svg {
-    margin-top: 200px;
+    margin-top: 230px;
     background: black;
     color: white;
     margin-left: 100px;
@@ -46,24 +46,17 @@ svg {
 
 @media only screen and (max-height: 600px)  {
     svg {
-      margin-top: 500px;
+        margin-top: 500px;
     }
 }
 @media only screen and (max-width: 800px)  {
     svg {
-      margin-left: 0px;
-      margin-top: 200px;
-      margin-bottom: -350px;
+        margin-left: 0px;
+        margin-top: 300px;
+        margin-bottom: -350px;
     }
 }
 
-/* @media only screen and (max-width: 400px), screen and (max-height: 800px)  {
-    svg {
-      margin-left: 0px;
-      margin-top: 500px;
-      margin-bottom: -350px;
-    }
-} */
 
 
 
