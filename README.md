@@ -23,4 +23,4 @@ TODO
 4. Add new navigation or tabs for tables and charts. 
 
 LightHouse Report: 
-[https://github.com/DavidWProject/covidmap/blob/master/Lighthouse1.PNG?raw=true]
+![LightHouse Report](https://github.com/DavidWProject/covidmap/blob/master/Lighthouse1.PNG?raw=true)
