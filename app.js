@@ -16,7 +16,7 @@ function getData() {
     }
   }).done(function (data) {
     //alert("Retrieved " + data.length + " records from the dataset!");
-    console.log(data);
+    //console.log(data);
     if (data.length === 0 || null) {
       currentDay = currentDay - 1;
       getData();
@@ -37,8 +37,8 @@ function getData() {
           console.log("State doesn't work", state);
         }
 
-        console.log("State", state);
-        console.log("DataInfo", dataInfo);
+        //console.log("State", state);
+        //console.log("DataInfo", dataInfo);
       }
       //<button type="button" class="btn btn-default btn-sm" data-toggle="popover" title="Latest Data" data-content="Data will automatically be updated with the latest information available to the public based on the CDC">Info</button>
       var info = '';
