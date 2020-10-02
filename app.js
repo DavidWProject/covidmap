@@ -2,13 +2,14 @@ var d = new Date();
 var currentDay = d.getDate();
 var nonChangingDay = d.getDate();
 var currentMonth = d.toLocaleString('default', { month: 'long' })
+var currentMonthVal = d.getMonth();
 //This will be used to stop the infinite loop in and will help us cycle to the previous month. (TO DO)
 var dayCounter = 0;
 getData();
 
 function getData() {
   $.ajax({
-    url: `https://data.cdc.gov/resource/9mfq-cb36.json?submission_date=2020-09-${currentDay}T00:00:00.000`,
+    url: `https://data.cdc.gov/resource/9mfq-cb36.json?submission_date=2020-${currentMonthVal}-${currentDay}T00:00:00.000`,
     type: "GET",
     data: {
       "$limit": 100,
