@@ -8,6 +8,14 @@ var dayCounter = 0;
 getData();
 
 function getData() {
+  
+  if (currentDay === 0) {
+    currentDay = 30;
+    currentMonthVal = currentMonthVal - 1;
+    getData();
+    return;
+  }
+  
   $.ajax({
     url: `https://data.cdc.gov/resource/9mfq-cb36.json?submission_date=2020-${currentMonthVal}-${currentDay}T00:00:00.000`,
     type: "GET",
