@@ -17,7 +17,7 @@ function getData() {
   }
   
   $.ajax({
-    url: `https://data.cdc.gov/resource/9mfq-cb36.json?submission_date=2020-${currentMonthVal}-${currentDay}T00:00:00.000`,
+    url: `https://data.cdc.gov/resource/9mfq-cb36.json?submission_date=2021-${currentMonthVal}-${currentDay}T00:00:00.000`,
     type: "GET",
     data: {
       "$limit": 100,
