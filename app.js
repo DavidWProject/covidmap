@@ -51,7 +51,7 @@ function getData() {
       }
       //<button type="button" class="btn btn-default btn-sm" data-toggle="popover" title="Latest Data" data-content="Data will automatically be updated with the latest information available to the public based on the CDC">Info</button>
       var info = '';
-      $(".day").html("Last Updated on " + currentMonth + " " + nonChangingDay + ", 2020 " + info);
+      $(".day").html("Last Updated on " + currentMonth + " " + nonChangingDay + ", 2021 " + info);
       $(".totalCases").text(numberWithCommas(totalCases));
       $(".totalDeaths").text(numberWithCommas(totalDeaths));
       $(".totalNewCases").text(numberWithCommas(newCases));
